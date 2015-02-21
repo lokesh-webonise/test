@@ -7,5 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 execute "create file" do
-	command "echo "Hello" > /tmp/test"
+	command "echo Hello > /tmp/test"
 end
