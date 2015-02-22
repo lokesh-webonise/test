@@ -10,6 +10,6 @@ execute "create file" do
 	command "echo Hello > /tmp/test"
 end
 
-package "nrpe" do
+package "libsqlite3-dev" do
   action :install
 end
