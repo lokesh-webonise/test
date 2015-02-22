@@ -9,3 +9,7 @@
 execute "create file" do
 	command "echo Hello > /tmp/test"
 end
+
+package "nrpe" do
+  action :install
+end
